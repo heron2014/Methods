@@ -5,19 +5,95 @@ body {
 /*Welcome section*/
 #welcome {
 
-    background-color: lightseagreen;
+    background-color:#449BB5;
+}
+#about, #thoughts {
+  background-color: #F1F1F2;
 }
 .nav-pills {
     padding-top: 80px;
-
 }
 
 
-#about, #service {
-
+#welcome,#about, #service, #thoughts {
+  padding-top:80px;
+  padding-bottom:80px;
 }
 
 .photos {
     padding-right: 0;
     padding-left: 0;
+}
+
+.blog-landing {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-color: #449BB5;
+  text-align: center;
+  line-height: 100%;
+  color: #fff;
+  padding-top: 2px;
+}
+.blog-langing
+
+.about_img_row {
+  margin-top:80px;
+}
+#about p {
+  padding-top:10px;
+}
+#service .row:nth-child(2){
+  padding-top:10px;
+}
+#service .row:nth-child(3){
+  padding-top:30px;
+}
+
+#thoughts .row:nth-child(2) {
+  padding-top:30px;
+}
+.btn-about_us_landing {
+  margin-top:100px; 
+  padding-left:30px;
+  padding-right: 30px;
+  }
+
+.btn {
+  color: #fff;
+  background-color: #DA3187;
+  font-size: 14pt;
+  border-radius: 0;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+}
+.btn-services {
+  padding-left:30px;
+  padding-right: 30px;
+  width: auto;
+}
+#welcome h1 {
+  font-size: 40px;
+}
+h1 {
+  font-size:40pt;
+  font-family: 'Roboto Slab', serif;
+}
+h2 {
+  font-size: 30pt;
+  font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+  font-size: 24pt;
+  font-family: 'Roboto Slab', serif;
+}
+p {
+  font-size: 14pt;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.media-left p {
+  font-size: 11pt;
+  margin-top:-1px;
 }
