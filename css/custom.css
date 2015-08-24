@@ -447,7 +447,7 @@ text-decoration: underline;}
 }
 .media-heading {
   font-size:14pt;
-  color: $backgroundColorPink;
+  color: #DA3187;
   text-decoration: underline;
 }
 .second_tweet {
@@ -458,13 +458,13 @@ text-decoration: underline;}
 }
 
 a.link {
-  color: $backgroundColorPink;
+  color: #DA3187;
   text-decoration: underline;
 }
 
 .thoughts_follow {
   padding-left: 75px;
-  color: $backgroundColorPink;
+  color: ##DA3187;
   text-decoration: underline;
 }
 
