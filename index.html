@@ -12,6 +12,7 @@
     <link href="css/custom.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,15 +22,98 @@
     <![endif]-->
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-
-    </nav>
+    <header class="banner" role="banner">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <a class="brand" href="">
+        <img class="MD-logo pull-left" src="images/MD-logo-transparent.png" width="230px"/>
+      </a>
+      <div class="menu-section">
+        <div class="menu-toggle">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+          <div class="MD-menu">
+            <span id="MD-menu-text">menu</span>
+          </div>
+        </div>
+      </div>
+      <div id="openModal">
+        <div class="MD-menu-items">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-4">
+                <p>Menu</p>
+                <ul class="nav">
+                  <a href="#"><li>Sub-item</li></a>
+                  <a href="#"><li>Sub-item</li></a>
+                  <a href="#"><li>Sub-item</li></a>
+                  <a href="#"><li>Sub-item</li></a>
+                </ul>
+              </div>
+              <div class="col-xs-4">
+                <p>Menu</p>
+                <ul class="nav">
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                </ul>
+              </div>
+              <div class="col-xs-4">
+                <p>Menu</p>
+                <ul class="nav">
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-4">
+                <p>Menu</p>
+                <ul class="nav">
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                </ul>
+              </div>
+              <div class="col-xs-4">
+                <p>Menu</p>
+                <ul class="nav">
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                </ul>
+              </div>
+              <div class="col-xs-4">
+                <p>Menu</p>
+                <ul class="nav">
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                  <li>Sub-item</li>
+                </ul>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+       
+    </div>
+  </nav> 
+</header>
 
     <!-- Header -->
     <section id="welcome">
         <div class="container">
             <h1>Hello :)</h1>
-            <h2>We are Methods Digital, we help organization accelerate and are disruptive technology.</h2>
+            <h2>We are Methods Digital, we help organization<br/>
+            <strong><span class="underline">accelerate</strong></span>, <strong><span class="underline">flow </span></strong>and <strong><span class="underline">share</span></strong> with disruptive<br/>
+technology.</h2>
             <ul class="nav nav-pills">
                 <li role="presentation"><a href="about.html">About</a></li>
                 <li role="presentation"><a href="#">Services</a></li>
@@ -43,24 +127,26 @@
 
     <!-- Portfolio Grid Section -->
     <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-7">
-                    <h1>About Us</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
-                    <a class="btn btn-default btn-about_us_landing" href="#" role="button">Find out more about us</a>
-                </div>
-                
-                <div class="col-xs-12 col-md-4 col-md-offset-1 about_img_row">
-                    <a href="#" class="thumbnail">
-                        <img src="http://placehold.it/360x200" alt="">
-                    </a>
-                
-                </div>
-            </div>
+  
+    <div class="row about_grey">
+      <div class="container about_grey_container">
+        <div class="col-xs-12 col-md-6">
+          
+          <h2 class="about_font">About us</h2>
+            
+          <p class="about_us_p">sdfskhfksdjfs fjs fksdjfk sj fkjs kf skf sdfkskfskfj skfjks fksf sf sdf sdj fsd fj sfjsdklfj sdfsdjf sd f sdf sdf lsd fsd f sdlf ls fs f sjflsjflsj dfj sdlf sdj fsd fj sdf sdjf lsdj fsdfj sdflsdjfls df sd fsdk flsd jf sdf jsdl jflsdj fsd fsdlf sd fsdfsdlflsdf lsd</p>
+          
         </div>
-    </section>
-
+      
+        </div>
+      </div>
+      <div class="row">
+        <div class="container">
+          <a class="btn btn-default btn-about_us_landing" href="#" role="button">Find out more about us</a>
+        </div>
+    </div>
+ 
+</section>
     <!-- Portfolio Grid Section -->
     <section id="service">
         <div class="container">
@@ -101,82 +187,130 @@
 
     <!-- Portfolio Grid Section -->
     <section id="thoughts">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1>Our thoughts</h1>
-                    <p>Lorem lorem</p>
-                </div>
-            </div>
-            <div class="row">
+  <div class="container">
+    
+    <h2>Our thougths</h2>
+    <p>fhsdjkf sdkfsdkf ksjf ksd fsdkfsdkf ksj dfksd fk sdf sdjkf sf sdk</p>
+  
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        
+        <div class="media">
+          <div class="media-left">
+            <div class="media-object blog-landing"><p class="month">August</p><p class="day">23</p><p class="year">2015</p></div>  
+          </div> <!-- end media-left div -->
+          <div class="media-body">
+            <p class="media-heading">fsdjfsd fjsd fsldf sd</p>
+            <p class="blog_paragraph">fjkhsdkf sdhfk sdhfksdk fh skfksdf ksd fkfhsdjkfhsdkhfksdhfkshfjks kfhsjkdfsjkdhfkjshdfsd jkfh skd fsf</p>
+          </div><!-- end media-body div -->
+        </div> <!-- end media div -->
 
-                <div class="col-xs-12 col-sm-6">
-                    <div class="media">
-                        <div class="media-left">
-                            
-                                <div class="media-object blog-landing"><p class="month">MAY</p><p class="day">24</p><p class="year">2015</p></div>
-                            
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Media heading</h4>
-                            <p>Lorem lorem lorem lorem lorem lorem lorem lorem</p>
-                        </div>
-                    </div>
-
-                    <div class="media">
-                        <div class="media-left">
-                            
-                                <div class="media-object blog-landing"><p class="month">May</p><p class="day">24</p><p class="year">2015</p></div>
-                            
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Media heading</h4>
-                            <p>Lorem lorem lorem lorem lorem lorem lorem lorem</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6">
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#">
-                                <img class="media-object" src="http://placehold.it/64x64" alt="">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Media heading</h4>
-                            <p>Lorem lorem lorem lorem lorem lorem lorem lorem</p>
-                        </div>
-                    </div>
-
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#">
-                                <img class="media-object" src="http://placehold.it/64x64" alt="">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Media heading</h4>
-                            <p>Lorem lorem lorem lorem lorem lorem lorem lorem</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="media">
+          <div class="media-left">
+            <div class="media-object blog-landing"><p class="month">August</p><p class="day">23</p><p class="year">2015</p></div>  
+          </div> <!-- end media-left div -->
+          <div class="media-body">
+            <p class="media-heading">fsdjfsd fjsd fsldf sd</p>
+            <p class="blog_paragraph">fjkhsdkf sdhfk sdhfksdk fh skfksdf ksd fkfhsdjkfhsdkhfksdhfkshfjks kfhsjkdfsjkdhfkjshdfsd jkfh skd fsf</p>
+          </div><!-- end media-body div -->
+        </div> <!-- end media div -->
+         
+      </div> <!-- end col-xs-12 col-sm-6 div -->
+      <div class="col-xs-12 col-sm-6">
+        <div class="media">
+          <div class="media-left"> 
+            <img class="media-object" src="http://placehold.it/64x64" alt="">
+          </div><!-- end media-left div (2)-->
+          <div class="media-body">
+            <a href="http://twitter.com/MethodsDigital"><p class="media-heading" id="heading1">Media heading</p></a>
+            <p id="tweet1">fsdjlfs dfjskd fsj fksdfs dfjsdfsd</p>
+          </div>
+        </div> <!-- end media div (2)-->
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+            <img class="media-object second_tweet" src="http://placehold.it/64x64" alt="">
+            </a>
+          </div> <!-- end media-left div (3)-->
+          <div class="media-body">
+            <a href="http://twitter.com/MethodsDigital"><p class="media-heading" id="heading2">Media heading</p></a>
+            <p id="tweet2">fjsdfjsdljfls dfsjdf sdlfj sldjf lsdjfls fls</p>
+          </div> <!-- end media-body div -->
         </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <p>Footer</p>
+      </div> <!-- end col-xs-12 col-sm-6 div (2) -->
+    </div> <!-- end row div -->
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+      <p class="thoughts_follow">Read more from our blog</p>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <p class="thoughts_follow">Follow us @MethodsDigital</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object" src="http://placehold.it/50x50" alt="">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Lorem lorem lorem</h4>
+                <p>Packed full with technology -hardocoded</p>
+              </div>
             </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </div> <!-- end container div -->
+</section>
+
+    <section id="contact">
+  <div class="row">
+    <div class="col-xs-12 col-md-7">
+    <div id="map">
+    </div>
+   
+    </div>
+
+    <div class="col-xs-12 col-md-5 contact_info">
+     
+        <h2>Contact us</h2>
+        <p>020 7240 1121<br/>
+            info@methods.co.uk</p>
+
+        <p>16 St. Martin’s Le Grand<br/>
+          London EC1A 4EN</p>
+
+          <p>Methods Digital Limited<br/>
+Registered in England and Wales<br/>
+Registered No. 08906750<br/>
+VAT NO. 829 5158 02</p>
+
+<p>Part of the<br/>
+METHODS group.</p>
+
+<p>
+
+@ Methods Digital Ltd 2015<br/>
+All rights reserved</p>
+
+<img src="images/MD_logo_white.png" class="img-responsive">
+      
+    </div>
+ 
+  </div>
+</section>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
